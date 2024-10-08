@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: "Roboto", sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        h1{
+            font-size: 50px;
+        }
+
+        .container{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .cono{
+            display: flex;
+            justify-content: center;
+            margin: 30px 0px;
+            font-size: 70px;
+            width: 450px;
+        }
+
+        .buttons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .time{
+            width: 20%;
+        }
+
+        .cono #millessimos{
+            width: 30%;
+        }
+
+        .btn{
+            font-size: 25px;
+            padding: 10px 20px;
+            border-radius: 7px;
+            cursor: pointer;
+            background-color: rgb(68, 233, 68);
+            border: none;
+            margin: 5px;
+            width: 150px;
+        } 
+
+        .buttons #pausar, #continuar{
+            display: none;
+        }
+
